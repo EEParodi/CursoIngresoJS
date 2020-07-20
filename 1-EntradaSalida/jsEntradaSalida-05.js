@@ -47,11 +47,30 @@ function mostrar()
 
 	alert("Usted se llama " +nombreIngresado+" y tiene " +edadIngresada+" años");
 
-//concatenamos todo en el mismo alert para mostrar todo junto
+/*concatenamos todo en el mismo alert para mostrar todo junto
+
+Copiamos enunciado, comillas doble a la variable,
+  reemplazamo la misma por ++, ingresamos variable entre los signos
+*/  
 }
 
-/*Copiamos enunciado, comillas doble a la variable,
-  reemplazamo la misma por ++, ingresamos variable entre los signos
-  
-  */
+/* 
+
+ID lado derecho asigna variable
+ID lado izquierdo muestra variable
+
+ENTRADA
+nombreIngresado="Juan"
+nombreIngresado=prompt("Ingrese su nombre","Natalia Natalia");
+nombreIngresado=txtIdNombre.value;
+nombreIngresado=document.getelementbyid('txtIdNombre').value;
+
+
+SALIDA
+alert("Literal")
+alert("Su nombre es: "+nombreIngresado);
+txtIdNombre.value=nombreIngresado
+document.getelementbyid('txtIdNombre').value="otro valor"
+
+*/
 

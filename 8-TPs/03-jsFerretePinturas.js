@@ -4,10 +4,28 @@ B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en
 */
 function FahrenheitCentigrados () 
 {
-	
+	//txtIdTemperatura
+	var tempFahr;
+	var calculoCelsius;
+
+	tempFahr=txtIdTemperatura.value;
+	tempFahr=parseInt(tempFahr);
+
+	calculoCelsius=(tempFahr-32)/1.8;
+
+	alert(tempFahr+" Fahrenheit son "+calculoCelsius+" centigrados");
+
 }
 
 function CentigradosFahrenheit () 
 {
-	
+	var tempCelsius;
+	var calculoFahr;
+
+	tempCelsius=txtIdTemperatura.value;
+	tempCelsius=parseInt(tempCelsius);
+
+	calculoFahr=(tempCelsius*1.8)+32,
+
+	alert(tempCelsius+" centígrados son "+calculoFahr+" Fahrenheit" )
 }

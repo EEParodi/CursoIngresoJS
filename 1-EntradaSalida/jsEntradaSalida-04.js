@@ -14,16 +14,3 @@ function mostrar()
 
 }
 
-//ID lado derecho asigna variable
-//ID lado izquierdo muestra variable
-
-/*
-ENTRADA
-nombreIngresado=prompt("Ingrese su nombre","Natalia Natalia");
-nombreIngresado=txtIdNombre.value;
-
-SALIDA
-alert("Su nombre es: "+nombreIngresado);
-txtIdNombre.value=nombreIngresado
-*/
-
